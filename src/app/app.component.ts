@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'angular-excercises';
+  buttonLabel = "Kliknij mnie!";
+  isDisabled = false;
+
+  onClick() {
+    alert("Kliknąłeś przycisk!");
+  }
 }
