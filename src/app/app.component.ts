@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'angular-excercises';
+  showItems = false;
+  items = ['Przedmiot 1', 'Przedmiot 2', 'Przedmiot 3', 'Przedmiot 4'];
 }
