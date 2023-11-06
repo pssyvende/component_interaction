@@ -1,0 +1,8 @@
+<div>
+    <ul>
+      <li *ngFor="let todo of getTodos(); let i = index">
+        {{ todo }}
+        <button (click)="removeTodo(i)">Usuń</button>
+      </li>
+    </ul>
+  </div>
