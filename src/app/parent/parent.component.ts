@@ -13,7 +13,7 @@ export class ParentComponent {
   constructor() {}
 
   addTodo() {
-    // wywołaj wstrzyknięty serwis i dodaj nowe zadanie, dostarczając metodzie string "todo"
+    // wywołaj wstrzyknięty serwis i dodaj nowe zadanie, dostarczając metodzie zawartość zmiennej "todo"
 
     this.todo = '';
   }
